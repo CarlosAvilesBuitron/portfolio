@@ -1,0 +1,32 @@
+#skills{
+    @extend .main-padding;
+    margin-top:20px;
+    text-align: center;
+
+    #view_more{
+
+        margin: 40px 0;
+        float:right;
+
+        button{
+            border:none!important;
+            background-color:none !important;
+            color:$medium-light; 
+            text-decoration: underline;
+            font-size:1.4rem; 
+            
+            &:focus, &:focus.active{
+                outline: none;
+            }
+
+            &:hover{
+                color: $dark;
+            }
+        }
+        
+    }
+
+    #more-skills{
+        display: none;
+    }
+}

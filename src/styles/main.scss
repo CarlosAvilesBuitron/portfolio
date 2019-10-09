@@ -1,1 +1,81 @@
-@import './nav';
+//bootstrap
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,800|Roboto:400,700&display=swap');
+
+//theme
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+p, li, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+$light: #FBFEF9;
+$medium-light:#69DDFF;
+$medium:#0E79B2;
+$medium-dark:#2D3142;
+$dark: #000F08;
+$neutral: #e8e8e8;
+
+*:focus {
+    outline: none;
+}
+
+//global
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.main-padding{
+    padding: 15px 10% 15px;
+}
+
+.highlight{
+    color: $medium-light;
+}
+
+.shadow{
+    -webkit-box-shadow: 5px 5px 15px -5px #C0BCB5; 
+    box-shadow: 5px 5px 15px -5px #C0BCB5;
+}
+
+.scroll-adjust{
+    padding-top: 80px !important;
+}
+
+@media(max-width:600px){
+    .main-padding{
+        padding: 15px 5% 15px;
+    }
+}
+
+@import './timeline';
+@import './header';
+@import './content';
+@import './skills';
+@import './resume';
+@import './portfolio';
+@import './contact';
+@import './footer';
+@import './custom_modal';
+@import './social';

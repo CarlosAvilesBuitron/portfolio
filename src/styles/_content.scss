@@ -1,0 +1,85 @@
+.sections{
+    width: 100%;
+    @extend .main-padding;
+}
+
+#content-main{
+    background-color:$light;
+
+    section{
+        @extend .sections;
+
+        h2{
+            font-size: 2rem;
+            text-align: left;
+            color: $medium-dark;
+        }
+
+        hr{
+            margin: 5px auto 15px;
+            border-bottom: 4px solid $medium-light;
+        }
+    }
+}
+
+
+.card{
+    text-align: left;
+    background-color: white;
+    @extend .shadow;
+    padding: 10px;
+
+    &:hover{
+        svg{
+            color: $medium;
+        }
+        p{
+            border-bottom-color: $medium;
+        }
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template: repeat(2, 250px)/ repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 1.4rem;
+    clear:both;
+
+    & > div{
+        border-radius: 3px;
+        @extend .card;
+        text-align: left;
+
+        h3{
+            font-size: 1.4rem;
+            margin: 0 0 6px;
+        }
+
+        .bordered{
+            border-bottom: 5px solid $medium-light;
+        }
+
+        .description{
+            font-size: .9rem;
+        }
+
+    }
+
+    .skill_icon{
+        width: 35%;
+        height: 35%;
+        color: $medium-light;
+        display: block;
+        margin: 0;
+    }
+    
+}
+
+
+
+//mobile
+@media(max-width: 600px){
+    .cards {
+        grid-template: repeat(3, 300px) / repeat(auto-fit, minmax(175px, 1fr));
+    }
+}    

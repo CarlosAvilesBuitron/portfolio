@@ -1,0 +1,126 @@
+#portfolio{
+
+    .examples{
+        .example{
+            padding: 0px !important;
+            text-align: center;
+            width:260px;
+            float:left;
+            margin: 10px;
+        }
+    }
+
+    .examples{
+        margin: 0 auto;
+    }
+
+    .card{
+        padding: 0px !important;
+        margin: 0 auto;
+        width: auto;
+
+        img{
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+        }
+
+        .card-header{
+            font-weight: 700;
+        }
+
+        button{
+            margin: 5px;
+            background-color:$medium-light;
+            border-color:$medium-light;
+            color:$light;
+            &:hover{
+                background-color:$dark;
+                border-color:$dark;
+                color:$light;
+            }
+        }
+    }
+
+    .mobile-controls{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+
+        svg{
+            color:$light;
+            position: absolute;
+            right: 5px;
+            top: 0;
+        }
+
+        display: inline-block;
+    }
+
+    #portfolio-select-controls{
+        width: 100%;
+        font-size: 1.4rem;
+        color: $light;
+        background-color: $medium-dark;
+        border-color: $medium-light;
+        margin: 10px auto;
+        padding: 5px;
+        height: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .controls{
+
+        margin: 0 auto 10px;
+        text-align: center;
+        display: none;
+        
+
+        button{
+            margin: 5px 5px;
+            background-color:$medium-light;
+            border-color: $medium-light;
+            color: $light;
+
+            &:hover{
+                background-color:$dark;
+                border-color: $dark;
+                color: $medium-light;
+            }
+        }
+
+        .active{
+            background-color:$dark;
+            border-color: $dark;
+            color: $medium-light;
+        }
+    }
+
+}
+
+@media(max-width:600px){
+    #portfolio{
+
+        #portfolio-select-controls{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .controls{
+            display: none;
+        }
+
+        .examples{
+            .example{
+                padding: 0px !important;
+                text-align: center;
+                width:100%;
+                float:none;
+                margin: 15px auto;
+            }
+        }   
+        
+    }
+}

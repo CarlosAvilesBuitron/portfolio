@@ -1,0 +1,29 @@
+#social_icons{
+    position: absolute;
+    color: $light;
+    display: flex;
+    flex-direction: column;
+    right:15px;
+    bottom:45%;
+    z-index: 190;
+
+    a{
+        color:$light;
+        &:hover,&:active,&:focus{
+            color:$medium-light;
+        }
+    }
+
+    svg{
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
+}
+
+@media(max-width:600px){
+    #social_icons{
+        bottom:5%;
+    }
+}
+

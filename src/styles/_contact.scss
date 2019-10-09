@@ -1,0 +1,75 @@
+#contact{
+    margin: 40px auto;
+    clear:both;
+}
+
+#logos_wrapper{
+    display: flex;
+    margin:0 auto;
+    text-align: center;
+    padding:5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        margin:0 auto;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media(max-width:960px){
+    #logos_wrapper{
+        div{
+            max-width: 120px;
+        }
+    }
+}
+
+@media(max-width:500px){
+    #logos_wrapper{
+        div{
+            max-width: 60px;
+        }
+    }
+}
+
+
+#contact_form{
+
+    margin-top:40px;
+    padding-top:50px !important;
+    padding-bottom:50px !important;
+    background-color:$neutral;
+
+    .form-group{
+        textarea, input{
+            background-color:$medium-dark !important;
+            font-size: 1.25rem;
+
+            color: $light;
+        }
+
+        textarea:focus, input:focus{
+            outline: none !important;
+        }
+        
+    }
+
+    button{
+        background-color: $medium-light;
+        border-color: $medium-light;
+        font-size: 1.25rem;
+
+        &:hover{
+            background-color:$dark;
+            border-color:$dark;
+            color:$medium-light;
+        }
+
+        &:focus{
+            outline: none !important;
+        }
+    }
+    
+}

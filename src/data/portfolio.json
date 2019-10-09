@@ -1,0 +1,100 @@
+[
+    {
+        "title":"American Bible Society",
+        "excerpt":"Donation form build on AWS cloud.",
+        "description":"<p>Donation form build on AWS cloud.</p><p>More Info</p>",
+        "feature":"https://via.placeholder.com/300x150",
+        "tags":"front back full react",
+        "tech":"React, Redux, AWS, NodeJS",
+        "code":false,
+        "link":"https://google.com",
+        "git":"https://yahoo.com",
+        "images":[
+            "https://via.placeholder.com/900x600"
+        ]
+    },
+    {
+        "title":"Houston Food Bank",
+        "excerpt":"Donation form build on AWS cloud.",
+        "description":"Donation form build on AWS cloud.",
+        "feature":"https://via.placeholder.com/300x150",
+        "tags":"front back full react",
+        "tech":"React, Redux, AWS, NodeJS",
+        "code":false,
+        "link":"https://google.com",
+        "git":"https://yahoo.com",
+        "images":[
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            },
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            },
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            }
+        ]
+    },
+    {
+        "title":"Los Angeles Mission",
+        "excerpt":"Donation form build on AWS cloud.",
+        "description":"Donation form build on AWS cloud.",
+        "feature":"https://via.placeholder.com/300x150",
+        "tags":"front back full react",
+        "tech":"React, Redux, AWS, NodeJS",
+        "code":false,
+        "link":"https://google.com",
+        "git":"https://yahoo.com",
+        "images":[
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            },
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            },
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            }
+        ]
+    },
+    {
+        "title":"Los Angeles Mission",
+        "excerpt":"Donation form build on AWS cloud.",
+        "description":"Donation form build on AWS cloud.",
+        "feature":"https://via.placeholder.com/300x150",
+        "tags":"php wordpress",
+        "tech":"WordPress",
+        "code":true,
+        "link":"https://google.com",
+        "git":"https://yahoo.com",
+        "images":[
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            },
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            },
+            {
+                "image":"https://via.placeholder.com/900x600",
+                "title":"Lorem Ipsum",
+                "caption":"Caption Ipsum"
+            }
+        ]
+    }
+]
