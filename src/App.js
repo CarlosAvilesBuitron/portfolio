@@ -16,8 +16,8 @@ import './styles/main.scss';
 
 function App() {
 
-
- 
+  
+  /* Version 1.0.0.2 */
 
   return (
     <div>
