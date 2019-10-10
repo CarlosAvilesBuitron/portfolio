@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {API} from 'aws-amplify';
 
 //Components
 import PortfolioModal from './portfolio_modal';
@@ -14,12 +15,29 @@ const examples_data = require('../data/portfolio.json');
 
 function Portfolio(){
 
+    const [project_data, set_projects_data] = useState([]);
     const [current_example, set_current_example] = useState(examples_data[0]);
+    const [loaded, setLoaaded] = useState(false);
 
     const open_modal = (selected_example)=>{
         const modal = document.getElementById('portfolio-modal');
         modal.style.display = 'block';
         set_current_example(examples_data[selected_example]);
+    };
+
+    const get_projects = ()=>{
+        const get_data = async function get_data(){
+            try{
+                const project_data_incoming = await API.get('restend', '/projects'); 
+                set_projects_data(project_data_incoming.projects.Items);
+                setLoaaded(true);
+            }catch(error){
+                console.log(error);
+                return;
+            }
+        };
+
+        get_data();
     };
 
     const open_link = (link)=>{
@@ -29,7 +47,7 @@ function Portfolio(){
     const render_examples = (examples)=>{
         let rendered =  examples.map((example, index)=>{
             return(
-                <div className={`example ${example.tags}`} key={index}>
+                <div className={`example ${example.tags}`} key={example.id}>
                     <Card>   
                         <Card.Img variant="top" src={example.feature} />
                         <Card.Body>
@@ -76,6 +94,8 @@ function Portfolio(){
 
     };
 
+    get_projects();
+
     useEffect(()=>{
 
         iso();
@@ -89,7 +109,7 @@ function Portfolio(){
             }
         }
     
-    },[current_example]);
+    },[current_example, loaded]);
 
     return(
         <section id="portfolio" className="page-section">
@@ -107,7 +127,7 @@ function Portfolio(){
 
               <div className="examples">
 
-                {render_examples(examples_data)}
+                {loaded && (render_examples(project_data))}
 
               </div>
 

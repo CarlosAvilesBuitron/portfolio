@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/contact",
+            "lambdaFunction": "portfoliorest",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/projects",
+            "lambdaFunction": "portfoliorest",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "restend",
+    "apiName": "restend",
+    "functionArns": [
+        {
+            "lambdaFunction": "portfoliorest"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "portfolio-master-20191009170647-authRole",
+        "unAuthRoleName": "portfolio-master-20191009170647-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "portfoliorest",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "d4ec2660"
+}

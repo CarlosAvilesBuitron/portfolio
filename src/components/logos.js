@@ -75,8 +75,8 @@ function Logos(){
         }
     ];
 
-    const render_logos = (companies, index)=>{
-        let render = companies.map((company)=>{
+    const render_logos = (companies)=>{
+        let render = companies.map((company, index)=>{
             return(
                 <div key={index}>
                     <a href={company.link} target="_blank" rel="noopener noreferrer" title={company.title}>

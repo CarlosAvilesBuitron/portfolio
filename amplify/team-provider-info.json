@@ -1,0 +1,14 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "portfolio-master-20191009170647-authRole",
+            "UnauthRoleArn": "arn:aws:iam::601693027772:role/portfolio-master-20191009170647-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::601693027772:role/portfolio-master-20191009170647-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "portfolio-master-20191009170647-deployment",
+            "UnauthRoleName": "portfolio-master-20191009170647-unauthRole",
+            "StackName": "portfolio-master-20191009170647",
+            "StackId": "arn:aws:cloudformation:us-east-1:601693027772:stack/portfolio-master-20191009170647/b4deb300-ead8-11e9-8fc1-0aad5d963972"
+        }
+    }
+}
