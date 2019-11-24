@@ -38,7 +38,7 @@ function Contact(){
                 document.getElementById('results').style.display = 'block';
                 document.getElementById('contact-form').style.display = 'block';
                 console.log(err);
-                setStatus('An error has occured. Please try again.')
+                setStatus('An error has occured. Please try again.');
             }
         };
 
@@ -54,12 +54,12 @@ function Contact(){
     };
 
     return( 
-        <section id="contact_form" className="page-section">
+        <section id="contact_form" className="page-section" style={{"clear":"both"}}>
             <h2>Get in touch</h2>
             <hr/>
             <Container>
                 <Form onSubmit={handle_submit}>
-                    <Row id="contact-form" >
+                    <Row >
                         <Col md={6}>
                             <Form.Group controlId="formBasicPassword">
                                 <Form.Control onChange={handle_change} name="name" required type="text" size="lg" placeholder="Name" />

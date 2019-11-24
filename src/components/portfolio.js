@@ -22,26 +22,28 @@ function Portfolio(){
     const open_modal = (selected_example)=>{
         const modal = document.getElementById('portfolio-modal');
         modal.style.display = 'block';
-        set_current_example(examples_data[selected_example]);
+        set_current_example(project_data[selected_example]);
+    };
+    
+    const open_link = (link)=>{
+        window.open(link,'_blank');
     };
 
     const get_projects = ()=>{
+
         const get_data = async function get_data(){
             try{
                 const project_data_incoming = await API.get('restend', '/projects'); 
                 set_projects_data(project_data_incoming.projects.Items);
                 setLoaaded(true);
+                
             }catch(error){
                 console.log(error);
                 return;
             }
         };
-
+        
         get_data();
-    };
-
-    const open_link = (link)=>{
-        window.open(link,'_blank');
     };
 
     const render_examples = (examples)=>{
@@ -66,11 +68,24 @@ function Portfolio(){
                 </div>
             );
         });
+        
+   
         return rendered;
+    };
+    
+    const init_modal = ()=>{
+        const modal = document.getElementById('portfolio-modal');
+
+        window.onclick = function(event) {
+
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
     };
 
     const iso = ()=>{
-
+        
         const elem = document.querySelector('.examples');
 
         const sort = new window.Isotope( elem, {
@@ -85,7 +100,7 @@ function Portfolio(){
     const filter = (e)=>{
 
         e.preventDefault();
-
+        
         let data = `.${e.target.value}`;
            
         window.sort.arrange({
@@ -93,23 +108,22 @@ function Portfolio(){
         });
 
     };
-
-    get_projects();
+    
 
     useEffect(()=>{
-
-        iso();
-
-        const modal = document.getElementById('portfolio-modal');
-
-        window.onclick = function(event) {
-
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
-        };
+        
+        get_projects();
+        
+        init_modal();
+        
+    },[]);
     
-    },[current_example, loaded]);
+    useEffect(()=>{
+       
+       setTimeout(iso(), 6000);
+        
+    },[loaded]);
+
 
     return(
         <section id="portfolio" className="page-section">
@@ -126,8 +140,11 @@ function Portfolio(){
               </div>
 
               <div className="examples">
-
-                {loaded && (render_examples(project_data))}
+                
+                {!loaded && (<p>Loading Portfolio...</p>)}
+                {loaded && (
+                    render_examples(project_data)
+                )}
 
               </div>
 

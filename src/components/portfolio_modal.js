@@ -25,8 +25,7 @@ function PortfolioModal(props){
         if(images.length === 1){
             render = ()=>{
                 return(<img src={images[0]} alt="" />);
-            }
-
+            };
             return render();
 
         }else{
@@ -36,7 +35,7 @@ function PortfolioModal(props){
             };
 
             render = images.map((image, index)=>{
-                return(<Carousel.Item key="index">
+                return(<Carousel.Item key={index}>
                     <img
                     className="d-block w-100"
                     src={image.image}
@@ -53,7 +52,7 @@ function PortfolioModal(props){
         }
 
         
-    }
+    };
 
     return(
         <div id="portfolio-modal" className="custom-modal">

@@ -1,6 +1,9 @@
 #portfolio{
 
     .examples{
+        
+        margin: 0 auto;
+        
         .example{
             padding: 0px !important;
             text-align: center;
@@ -10,9 +13,6 @@
         }
     }
 
-    .examples{
-        margin: 0 auto;
-    }
 
     .card{
         padding: 0px !important;
