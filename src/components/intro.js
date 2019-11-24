@@ -35,7 +35,7 @@ function Intro(){
                 setTimeout(type, speed);
 
             }
-        }
+        };
 
         type();
 

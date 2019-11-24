@@ -17,10 +17,10 @@ import './styles/main.scss';
 function App() {
 
   
-  /* Version 1.0.0.3 */
+  /* Version 1.0.0.4 */
   
   const version = ()=>{
-    console.log("Version 1.0.0.3");
+    console.log("Version 1.0.0.4");
   };
   
   version();
@@ -38,9 +38,9 @@ function App() {
 
             <Portfolio/>
 
-            <Logos/>
-
             <Contact/>
+            
+            <Logos/>
 
         </main>
 

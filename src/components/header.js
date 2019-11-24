@@ -39,7 +39,7 @@ function Header(){
             }
     
             $('.page-section').each(function(i) {
-                    if ($(this).position().top <= scrollDistance + 90) {
+                    if ($(this).position().top <= scrollDistance + 0) {
                         $('.navigation a.selected').removeClass('selected');
                         $('.navigation a').eq(i).addClass('selected');
                     }
@@ -111,7 +111,7 @@ function Header(){
                   <li><a href="#skills" className="scroll">skills</a></li>
                   <li><a href="#resume" className="scroll">resume</a></li>
                   <li><a href="#portfolio" className="scroll">portfolio</a></li>
-                  <li><a href="#contact" className="scroll">contact</a></li>
+                  <li><a href="#contact_form" className="scroll">contact</a></li>
                   <li><a href="https://github.com/CarlosAvilesBuitron" rel="noopener noreferrer" target="_blank" className="scroll">code</a></li>
                 </ul>
             </nav>

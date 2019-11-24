@@ -59,7 +59,7 @@ function Contact(){
             <hr/>
             <Container>
                 <Form onSubmit={handle_submit}>
-                    <Row id="contact-form">
+                    <Row id="contact-form" >
                         <Col md={6}>
                             <Form.Group controlId="formBasicPassword">
                                 <Form.Control onChange={handle_change} name="name" required type="text" size="lg" placeholder="Name" />

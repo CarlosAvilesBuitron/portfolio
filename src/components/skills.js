@@ -25,7 +25,7 @@ function Skills(){
 
         return render;
     };
-
+    
     const render_more_skills = ()=>{
 
         let more = $('#more-skills');
@@ -58,11 +58,12 @@ function Skills(){
             <div id="more-skills" className="cards">
                 {render_skills(Skills_Data.intro)}
             </div>
-
-            <div id="view_more">
-                <button onClick={render_more_skills}>{view_more_text}</button>
+            
+            
+            <div id="view_more" style={{"display":"none"}}>
+                    <button onClick={render_more_skills}>{view_more_text}</button>
             </div>
-        
+            
 
         </section>
 
