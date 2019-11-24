@@ -17,7 +17,13 @@ import './styles/main.scss';
 function App() {
 
   
-  /* Version 1.0.0.2 */
+  /* Version 1.0.0.3 */
+  
+  const version = ()=>{
+    console.log("Version 1.0.0.3");
+  };
+  
+  version();
 
   return (
     <div>
