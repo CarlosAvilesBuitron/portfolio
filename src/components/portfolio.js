@@ -67,7 +67,7 @@ function Portfolio(){
             );
         });
         return rendered;
-    }
+    };
 
     const iso = ()=>{
 
@@ -107,7 +107,7 @@ function Portfolio(){
             if (event.target === modal) {
                 modal.style.display = "none";
             }
-        }
+        };
     
     },[current_example, loaded]);
 
