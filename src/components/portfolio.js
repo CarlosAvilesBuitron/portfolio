@@ -15,7 +15,7 @@ const examples_data = require('../data/portfolio.json');
 
 function Portfolio(){
 
-    const [project_data, set_projects_data] = useState([]);
+    const [project_data, set_projects_data] = useState(examples_data);
     const [current_example, set_current_example] = useState(examples_data[0]);
     const [loaded, setLoaaded] = useState(false);
 
@@ -30,7 +30,8 @@ function Portfolio(){
     };
 
     const get_projects = ()=>{
-
+        
+        /*
         const get_data = async function get_data(){
             try{
                 const project_data_incoming = await API.get('restend', '/projects'); 
@@ -44,6 +45,9 @@ function Portfolio(){
         };
         
         get_data();
+        */
+        
+        setLoaaded(true);
     };
 
     const render_examples = (examples)=>{
@@ -120,7 +124,12 @@ function Portfolio(){
     
     useEffect(()=>{
        
-       setTimeout(iso(), 6000);
+       setTimeout(()=>{
+           iso();
+           window.sort.arrange({
+                filter: 'example'
+            });
+       }, 6000);
         
     },[loaded]);
 

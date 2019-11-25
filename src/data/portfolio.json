@@ -1,100 +1,204 @@
 [
     {
-        "title":"American Bible Society",
-        "excerpt":"Donation form build on AWS cloud.",
-        "description":"<p>Donation form build on AWS cloud.</p><p>More Info</p>",
-        "feature":"https://via.placeholder.com/300x150",
-        "tags":"front back full react",
-        "tech":"React, Redux, AWS, NodeJS",
-        "code":false,
-        "link":"https://google.com",
-        "git":"https://yahoo.com",
-        "images":[
-            "https://via.placeholder.com/900x600"
-        ]
+      "code": false,
+      "description": "<p>A custom built donor platform and data manager</p><p>I built this app from scratch using a full stack JavaScript approach. It is hosted on the <strong>AWS cloud</strong>.</p><p>This is app runs on serverless lambdas to cut down on cost and is deployed on a custom built code pipeline.</p>",
+      "excerpt": "Web app to manage front end creatives and client data.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/dmc-01.jpg",
+      "git": "\"\"",
+      "id": "001",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/dmc-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/dmc-03.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://rkdgroup.com/donor-marketing-cloud/",
+      "tags": "front back full react",
+      "tech": "React, Redux, AWS, NodeJS",
+      "title": "Donor Marketing Cloud"
     },
     {
-        "title":"Houston Food Bank",
-        "excerpt":"Donation form build on AWS cloud.",
-        "description":"Donation form build on AWS cloud.",
-        "feature":"https://via.placeholder.com/300x150",
-        "tags":"front back full react",
-        "tech":"React, Redux, AWS, NodeJS",
-        "code":false,
-        "link":"https://google.com",
-        "git":"https://yahoo.com",
-        "images":[
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            },
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            },
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            }
-        ]
+      "code": false,
+      "description": "<p>The American Bible Society commisioned a form solution independant of any donation platforms.</p><p>The form is hosted on AWS S3 and integrates with a custom built Braintree serverless backend.</p>",
+      "excerpt": "A custom built React/Braintree form full-stack solution.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/abs-01.jpg",
+      "git": "\"\"",
+      "id": "002",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/abs-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/abs-03.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://share.americanbible.org/donate/?banner=ABS2019-02-001&pid=549&des=26cedd0f-0cdd-4e68-a678-0525f327536c&source=Web_SEM&utm_campaign=general-donate",
+      "tags": "front back full react",
+      "tech": "React, Redux, AWS, NodeJS",
+      "title": "American Bible Society"
     },
     {
-        "title":"Los Angeles Mission",
-        "excerpt":"Donation form build on AWS cloud.",
-        "description":"Donation form build on AWS cloud.",
-        "feature":"https://via.placeholder.com/300x150",
-        "tags":"front back full react",
-        "tech":"React, Redux, AWS, NodeJS",
-        "code":false,
-        "link":"https://google.com",
-        "git":"https://yahoo.com",
-        "images":[
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            },
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            },
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            }
-        ]
+      "code": false,
+      "description": "<p>Integrated Engaging Networks forms with AWS storage for front-end creative management.</p><p>Their forms connect to their WordPress instance, and feed information back and forth for tracking/data enrinchment.</p>",
+      "excerpt": "Donation forms hosted on Engaging Networks.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/slis-01.jpg",
+      "git": "\"\"",
+      "id": "003",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/slis-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/slis-03.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/slis-04.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://give.stlabre.org/page/34979/donate/1?HEADER=SLISBWEB&CPID=19CRO&SRC=19BWEBBWEB&CHOSEN=20&_ga=2.46419236.2029518156.1569963641-1206028134.1569963641",
+      "tags": "front aws wordpress",
+      "tech": "React, AWS, WordPress",
+      "title": "St. Labre Schol"
     },
     {
-        "title":"Los Angeles Mission",
-        "excerpt":"Donation form build on AWS cloud.",
-        "description":"Donation form build on AWS cloud.",
-        "feature":"https://via.placeholder.com/300x150",
-        "tags":"php wordpress",
-        "tech":"WordPress",
-        "code":true,
-        "link":"https://google.com",
-        "git":"https://yahoo.com",
-        "images":[
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            },
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            },
-            {
-                "image":"https://via.placeholder.com/900x600",
-                "title":"Lorem Ipsum",
-                "caption":"Caption Ipsum"
-            }
-        ]
+      "code": false,
+      "description": "<p>Integrated with a Authorize.net for donation processing and donor data store.</p><p>Their forms connect to their WordPress instance, and feed information back and forth for tracking/data enrinchment.</p>",
+      "excerpt": "Custom donation solutions, integrated with Authorize.net.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/lam-01.jpg",
+      "git": "\"\"",
+      "id": "004",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/lam-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/lam-03.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/lam-04.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://give.losangelesmission.org/production?cl=LAM&pg=hope&appeal=FY19-FACE&amt=35,50,75,100&gclid=Cj0KCQjw8svsBRDqARIsAHKVyqHngJl57qgxYiLNbWndqALUXxFqEcvyIgLIJ3OLsceCMVQit8v7LGgaAoFREALw_wcB",
+      "tags": "front aws wordpress",
+      "tech": "React, AWS, Authorize.net",
+      "title": "Los Angeles Mission"
+    },
+    {
+      "code": false,
+      "description": "<p>Donation forms built on the Luminate convio platform.</p><p>These forms use Google Tag Manager to capture user events and display relevant content.</p>",
+      "excerpt": "Luminate forms integrated with GTM.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/nyfb-01.jpg",
+      "git": "\"\"",
+      "id": "005",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/nyfb-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/nyfb-03.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/nyfb-04.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://secure3.convio.net/fbnyc/site/Donation2;jsessionid=00000000.app338b?df_id=7464&mfc_pref=T&7464.donation=form1&s_src=topmenu&_ga=2.132100102.805220615.1569963804-536450629.1569963804&NONCE_TOKEN=D6C4A57FB8DB4DF821287FBAB282FEC3",
+      "tags": "front luminate convio",
+      "tech": "Luminate, Convio, HTML5",
+      "title": "Food Bank of New York"
+    },
+    {
+      "code": false,
+      "description": "<p>Donation forms built on the Luminate convio platform.</p><p>These forms use Google Tag Manager to capture user events and display relevant content.</p>",
+      "excerpt": "Luminate forms integrated with GTM.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/hfb-01.jpg",
+      "git": "\"\"",
+      "id": "006",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/hfb-02.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://secure.houstonfoodbank.org/site/Donation2;jsessionid=00000000.app367b?df_id=8530&mfc_pref=T&8530.donation=form1&NONCE_TOKEN=9461B5618A758DA8553396246B803E2B",
+      "tags": "front luminate convio",
+      "tech": "Luminate, Convio, HTML5",
+      "title": "Houston Food Bank"
+    },
+    {
+      "code": false,
+      "description": "<p>SPCA ported their forms and donor data to the Donor Marketing Cloud..</p><p>These forms were custom built to integrate with their user data and front-end content..</p>",
+      "excerpt": "DMC forms integrated with AWS.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spca-01.jpg",
+      "git": "\"\"",
+      "id": "007",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spca-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spca-02.jpg",
+          "title": "\""
+        },
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spca-02.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://give.spca.org/production?cl=SPCTX&pg=gift&amt=50,100,250,800&chosen=250&amtmonth=30,50,75,125&source=Online%20Donation&custom03=990",
+      "tags": "front luminate convio",
+      "tech": "DMC, React, NodeJS",
+      "title": "SPCA of Texas"
+    },
+    {
+      "code": false,
+      "description": "<p>Donation forms built on the Salsa platform.</p><p>These forms use Google Tag Manager to capture user events and display relevant content.</p>",
+      "excerpt": "Salsa forms integrated with GTM.",
+      "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spfb-01.jpg",
+      "git": "\"\"",
+      "id": "008",
+      "images": [
+        {
+          "caption": "\"",
+          "image": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spfb-02.jpg",
+          "title": "\""
+        }
+      ],
+      "link": "https://donate.spfb.org/production?cl=SPFB&pg=main&amt=30,60,90,150&value=3&large=1000&chosen=60&source=top-right",
+      "tags": "front salsa convio",
+      "tech": "Salsa, Convio, HTML5",
+      "title": "South Plains Food Bank"
     }
 ]
