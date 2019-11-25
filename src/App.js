@@ -17,10 +17,10 @@ import './styles/main.scss';
 function App() {
 
   
-  /* Version 1.0.0.6 */
+  /* Version 1.0.0.7 */
   
   const version = ()=>{
-    console.log("Version 1.0.0.6");
+    console.log("Version 1.0.0.7");
   };
   
   version();

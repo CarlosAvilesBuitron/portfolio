@@ -120,6 +120,8 @@ function Portfolio(){
         
         init_modal();
         
+        iso();
+        
     },[]);
     
     useEffect(()=>{
@@ -129,7 +131,7 @@ function Portfolio(){
            window.sort.arrange({
                 filter: '.example'
             });
-       }, 6000);
+       }, 2000);
         
     },[loaded]);
 
