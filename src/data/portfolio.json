@@ -155,7 +155,7 @@
     },
     {
       "code": false,
-      "description": "<p>SPCA ported their forms and donor data to the Donor Marketing Cloud..</p><p>These forms were custom built to integrate with their user data and front-end content..</p>",
+      "description": "<p>SPCA ported their forms and donor data to the Donor Marketing Cloud..</p><p>These forms were custom built to integrate with their user data and front-end content.</p>",
       "excerpt": "DMC forms integrated with AWS.",
       "feature": "https://s3.amazonaws.com/public.carlos.developer/portfolio/spca-01.jpg",
       "git": "\"\"",
