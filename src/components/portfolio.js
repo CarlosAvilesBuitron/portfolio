@@ -127,11 +127,12 @@ function Portfolio(){
        setTimeout(()=>{
            iso();
            window.sort.arrange({
-                filter: 'example'
+                filter: '.example'
             });
        }, 6000);
         
     },[loaded]);
+
 
 
     return(
