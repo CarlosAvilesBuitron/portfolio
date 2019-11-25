@@ -31,7 +31,7 @@ function Portfolio(){
 
     const get_projects = ()=>{
         
-        /*
+        
         const get_data = async function get_data(){
             try{
                 const project_data_incoming = await API.get('restend', '/projects'); 
@@ -45,9 +45,7 @@ function Portfolio(){
         };
         
         get_data();
-        */
-        
-        setLoaaded(true);
+
     };
 
     const render_examples = (examples)=>{
@@ -131,7 +129,7 @@ function Portfolio(){
            window.sort.arrange({
                 filter: '.example'
             });
-       }, 2000);
+       }, 4000);
         
     },[loaded]);
 
